@@ -39,7 +39,7 @@
                 <div class="col-lg-12">
                     <h2 id="title" class="text-center">Data Anonymization</h2>
                 </div>
-                <div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 md-margin ">
+                <div class="col-lg-7 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12 md-margin">
                     <%
                         String action = "UploadDataRawServlet";
                         if (request.getAttribute("dataRaw") != null) {
@@ -51,7 +51,7 @@
 
                         <br>
 
-                        <h4>Baixe o arquivo em anexo para inserir os metadados de forma correta:</h4>
+                        <h4>Baixe o arquivo em anexo para ver o modelo de metadados utilizado:</h4>
 
                         <div class="form-group">
                             <br>
@@ -92,8 +92,10 @@
                                     List<String> csvColumns = (List<String>) request.getAttribute("csvColumns");
                                     for (String column : csvColumns) {
                             %>
-                            <div>
-                                <input type="checkbox" name="chk_<%= column%>" value="<%= column%>" />&nbsp;<%= column%><input type="file" name="file_<%= column%>" />
+                            <div class="form-check form-check-inline">
+                                <input id="input1" type="checkbox" name="chk_<%= column%>" value="<%= column%>" />&nbsp;<%= column%>
+                                <input id="input2" type="file" name="file_<%= column%>" />
+                                <br/>
                             </div>
                             <%
                                     }
