@@ -1,0 +1,143 @@
+/* STRUCTURE */
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../img/test1.jpg) center no-repeat fixed;
+}
+
+#load {
+    display: none;
+}
+
+.down{
+  margin-left: 220px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-check-circle-o{
+    color: #14fa14;
+    font-size: 15.5em;
+    opacity: 0.4;
+}
+
+a:hover {
+}
+
+.sm-margin {margin-bottom: 15px;}
+.sm-margin-top {margin-top: 15px;}
+.md-margin {margin-bottom: 30px;}
+.md-margin-top {margin-top: 30px;}
+.lg-margin {margin-bottom: 60px;}
+.lg-margin-top {margin-top: 60px;}
+
+.no-padding {padding: 0;}
+.no-padding-left {padding-left: 0;}
+.no-padding-right {padding-right: 0;}
+.padding-15 {padding-left: 15px; padding-right: 15px;}
+.padding-10-box {padding: 10px 0;}
+.p-bold {font-weight: bold;}
+.p-italic{font-style: italic;}
+
+/* Navbar */
+.navbar {
+    border-radius: 0;
+}
+
+#title {
+    padding-top: 50px;
+}
+
+/* Admin */
+
+.box-admin {
+    border: 2px dashed #9b2929;
+}
+
+.box-admin a {
+    color: #9b2929;
+}
+h6 {
+    font-size: 18px;
+}
+
+/* Footer */
+.navbar-inverse {
+    background-color: #00BFFF;
+    border-color: #fff
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+/* Rodape */
+#rodape{    
+    background: #00BFFF;
+    position: absolute;
+    bottom: 0; 
+    width:100%;
+    margin-top: 10px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#rodape span{
+    color: #fff;
+}
+
+/*  */
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Icones */
+
+.produtos-icone, .vendas-icone {
+    font-size: 50px;    
+}
+
+@media screen and (max-width: 767px) {
+    #title {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+}
+
+@media screen and (max-width: 360px) {
+}
