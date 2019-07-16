@@ -1,5 +1,5 @@
 # PoCTCC
-K-Anonymity:a proof of concept study
+K-Anonymity: a proof of concept study
 
 The proposed PoC is implemented in Java using the NetBeans, an integrated development environment (IDE) for coding. 
 
